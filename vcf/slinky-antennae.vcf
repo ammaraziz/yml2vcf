@@ -1,0 +1,27 @@
+##fileformat=VCFv4
+##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
+##META=phe-label:VOC202101/02
+##META=alternate-names:Brazil 2
+##META=belongs-to-lineage:{'PANGO': 'P.1'}
+##META=description:This variant was first identified in Japan in travellers from Brazil and is associated with Manaus in the Amazonas region assoicated with a severe second wave of COVID-19
+##META=info_source:https://virological.org/t/genomic-characterisation-of-an-emergent-sars-cov-2-lineage-in-manaus-preliminary-findings/586
+##META=calling-definition:confirmed_mutations-required:14,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
+##META=acknowledgements:None
+##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
+# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
+1	733	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|synonymous|SNP|nsp1|156|GAT-GAC
+1	2749	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|10|GAC-GAT
+1	3828	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|370|TCA-TTA
+1	5648	.	A	C	.	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|977|AAA-CAA
+1	11287	.	GTCTGGTTTT	G	.	.	.	ANN|G|Gene:ORF1ab|.|deletion|nsp6|.|.
+1	12778	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp9|31|TAC-TAT
+1	13860	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp12|140|GAC-GAT
+1	21621	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|20|ACC-AAC
+1	21638	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|26|CCT-TCT
+1	22812	.	A	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|417|AAG-ACG
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
+1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|501|AAT-TAT
+1	24642	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|1027|ACT-ATT
+1	28167	.	G	A	.	.	.	ANN|A|Gene:ORF8|non-synonymous|SNP|ORF8 protein|92|GAA-AAA
+1	28262	.	G	GAACA	.	.	.	ANN|GAACA|Gene:.|no-effect|insertion|.|.|.
+1	28512	.	C	G	.	.	.	ANN|G|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|80|CCA-CGA

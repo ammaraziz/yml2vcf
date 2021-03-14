@@ -1,0 +1,27 @@
+##fileformat=VCFv4
+##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
+##META=phe-label:VUI202102/03
+##META=alternate-names:UK1188
+##META=belongs-to-lineage:{'PANGO': 'B.1.525'}
+##META=description:This variant is a cluster of E484K containing genomes
+##META=info_source:None
+##META=calling-definition:confirmed_mutations-required:16,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
+##META=acknowledgements:None
+##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
+# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
+1	1498	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp2|231|TTC-TTT
+1	1807	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp2|334|GGA-GGG
+1	8593	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|synonymous|SNP|nsp4|13|GTT-GTC
+1	9565	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp4|337|TTC-TTT
+1	14407	.	CCT	TTT	.	.	.	ANN|TTT|Gene:ORF1ab|non-synonymous|MNP|nsp12|323|CCT-TTT
+1	18171	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp14|44|GGC-GGT
+1	20724	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp16|22|TTA-TTG
+1	21717	.	A	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|52|CAG-CGG
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
+1	23593	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|677|CAG-CAC
+1	24224	.	T	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|888|TTT-CTT
+1	24748	.	C	T	.	.	.	ANN|T|Gene:S|synonymous|SNP|surface glycoprotein|1062|TTC-TTT
+1	26305	.	C	T	.	.	.	ANN|T|Gene:E|non-synonymous|SNP|envelope protein|21|CTT-TTT
+1	26767	.	T	C	.	.	.	ANN|C|Gene:M|non-synonymous|SNP|membrane glycoprotein|82|ATC-ACC
+1	28699	.	A	G	.	.	.	ANN|G|Gene:N|synonymous|SNP|nucleocapsid phosphoprotein|142|CCA-CCG
+1	29543	.	G	T	.	.	.	ANN|T|Gene:.|no-effect|SNP|.|.|.

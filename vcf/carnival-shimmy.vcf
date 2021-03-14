@@ -1,0 +1,25 @@
+##fileformat=VCFv4
+##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
+##META=phe-label:VOC202012/02
+##META=alternate-names:South Africa
+##META=belongs-to-lineage:{'PANGO': 'B.1.351'}
+##META=description:This variant became widespread in countries in Southern Africa at the end of 2020 and has now been exported to a number of other countries including the UK
+##META=info_source:None
+##META=calling-definition:confirmed_mutations-required:12,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:4,probable_indels-required:0,probable_allowed-wildtype:0,alt-probable_mutations-required:5,alt-probable_indels-required:0,alt-probable_allowed-wildtype:4,alt-probable_variants_amino-acid-change:T205I,alt-probable_variants_codon-change:ACT-ATT,alt-probable_variants_gene:N,alt-probable_variants_one-based-reference-position:28887,alt-probable_variants_predicted-effect:non-synonymous,alt-probable_variants_protein:nucleocapsid phosphoprotein,alt-probable_variants_protein-codon-position:205,alt-probable_variants_reference-base:C,alt-probable_variants_type:SNP,alt-probable_variants_variant-base:T,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0,alt-low-qc_mutations-required:1,alt-low-qc_indels-required:0,alt-low-qc_allowed-wildtype:4,alt-low-qc_variants_amino-acid-change:T205I,alt-low-qc_variants_codon-change:ACT-ATT,alt-low-qc_variants_gene:N,alt-low-qc_variants_one-based-reference-position:28887,alt-low-qc_variants_predicted-effect:non-synonymous,alt-low-qc_variants_protein:nucleocapsid phosphoprotein,alt-low-qc_variants_protein-codon-position:205,alt-low-qc_variants_reference-base:C,alt-low-qc_variants_type:SNP,alt-low-qc_variants_variant-base:T
+##META=acknowledgements:None
+##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
+# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
+1	1059	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp2|85|ACC-ATC
+1	5230	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|837|AAG-AAT
+1	10323	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|90|AAG-AGG
+1	21801	.	A	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|80|GAT-GCT
+1	22206	.	A	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|215|GAT-GGT
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
+1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|501|AAT-TAT
+1	23664	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|701|GCA-GTA
+1	25563	.	G	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|57|CAG-CAT
+1	25904	.	C	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|171|TCA-TTA
+1	26456	.	C	T	.	.	.	ANN|T|Gene:E|non-synonymous|SNP|envelope protein|71|CCT-CTT
+1	28887	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|205|ACT-ATT
+1	22280	.	ACTTTACTTG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.
+1	11287	.	GTCTGGTTTT	G	.	.	.	ANN|G|Gene:ORF1ab|.|deletion|nsp6|.|.

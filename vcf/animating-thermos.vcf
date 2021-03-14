@@ -1,0 +1,32 @@
+##fileformat=VCFv4
+##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
+##META=phe-label:VUI202102/04
+##META=alternate-names:Debbie
+##META=belongs-to-lineage:{'PANGO': 'B.1.1.318'}
+##META=description:This variant is a cluster of E484K containing genomes
+##META=info_source:None
+##META=calling-definition:confirmed_mutations-required:17,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
+##META=acknowledgements:None
+##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
+# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
+1	3852	.	A	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|378|GAA-GTA
+1	3961	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|414|ATC-ATT
+1	7798	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|1693|AAG-AAT
+1	9072	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp4|173|ACC-ATC
+1	9891	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp4|446|GCT-GTT
+1	10116	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp5|21|ACT-ATT
+1	11287	.	GTCTGGTTTT	G	.	.	.	ANN|G|Gene:ORF1ab|.|deletion|nsp6|.|.
+1	20578	.	G	A	.	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp15|320|GTG-ATG
+1	21846	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|95|ACT-ATT
+1	21990	.	TTTA	T	.	.	.	ANN|T|Gene:S|.|deletion|surface glycoprotein|.|.
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
+1	23287	.	T	C	.	.	.	ANN|C|Gene:S|synonymous|SNP|surface glycoprotein|575|GCT-GCC
+1	23604	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|681|CCT-CAT
+1	23948	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|796|GAT-CAT
+1	24382	.	C	T	.	.	.	ANN|T|Gene:S|synonymous|SNP|surface glycoprotein|940|TCC-TCT
+1	25276	.	C	A	.	.	.	ANN|A|Gene:S|synonymous|SNP|surface glycoprotein|1238|ACC-ACA
+1	26767	.	T	C	.	.	.	ANN|C|Gene:M|non-synonymous|SNP|membrane glycoprotein|82|ATC-ACC
+1	27887	.	AAACGAACATGAAATT	A	.	.	.	ANN|A|Gene:ORF7b|.|deletion|ORF7b|.|.
+1	28209	.	G	T	.	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8 protein|106|GAA-TAA
+1	28271	.	A	G	.	.	.	ANN|G|Gene:.|no-effect|SNP|.|.|.
+1	28895	.	GCTA	G	.	.	.	ANN|G|Gene:N|.|deletion|nucleocapsid phosphoprotein|.|.

@@ -1,0 +1,26 @@
+##fileformat=VCFv4
+##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
+##META=phe-label:VOC202012/01
+##META=alternate-names:UK variant
+##META=belongs-to-lineage:{'PANGO': 'B.1.1.7'}
+##META=description:This variant became widespread in the UK in the Winter of 2021 and is characterised by increased transmissibility.
+##META=info_source:https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201
+##META=calling-definition:confirmed_mutations-required:13,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
+##META=acknowledgements:None
+##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
+# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
+1	21764	.	ATACATG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.
+1	21990	.	TTTA	T	.	.	.	ANN|T|Gene:S|.|deletion|surface glycoprotein|.|.
+1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|501|AAT-TAT
+1	23271	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|570|GCT-GAT
+1	23604	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|681|CCT-CAT
+1	23709	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|716|ACA-ATA
+1	24506	.	T	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|982|TCA-GCA
+1	24914	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|1118|GAC-CAC
+1	3267	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|183|ACT-ATT
+1	5388	.	C	A	.	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp3|890|GCT-GAT
+1	6954	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|1412|ATA-ACA
+1	27972	.	C	T	.	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8 protein|27|CAA-TAA
+1	28048	.	G	T	.	.	.	ANN|T|Gene:ORF8|no-effect|SNP|ORF8 protein|52|AGA-ATA
+1	28111	.	A	G	.	.	.	ANN|G|Gene:ORF8|no-effect|SNP|ORF8 protein|73|TAC-TGC
+1	28280	.	GAT	CTA	.	.	.	ANN|CTA|Gene:N|non-synonymous|MNP|nucleocapsid phosphoprotein|3|GAT-CTA

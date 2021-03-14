@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import yaml
-import vcf
 import argparse
 
 
@@ -64,7 +63,6 @@ def create_header(yaml):
 
 
 def create_record(yaml_variant):
-
     try:
         effect = yaml_variant['predicted-effect']
     except KeyError:
@@ -72,22 +70,28 @@ def create_record(yaml_variant):
 
     try:
         aa_pos = yaml_variant['protein-codon-position']
-    except:
+    except KeyError:
         aa_pos = '.'
 
     try:
         codon_change = yaml_variant['codon-change']
-    except:
+    except KeyError:
         codon_change = '.'
 
-    annotation = '{variant_base}|Gene:{gene}|{effect}|{type}|{protein}|{aa_pos}|{codon_change}'.format(
+    try:
+        aa_change = yaml_variant['amino-acid-change']
+    except KeyError:
+        aa_change = '.'
+
+    annotation = '{variant_base}|Gene:{gene}|{effect}|{type}|{protein}|{aa_change}|{aa_pos}|{codon_change}'.format(
         variant_base=yaml_variant['variant-base'],
         gene=yaml_variant['gene'],
         effect=effect,
         type=yaml_variant['type'],
         protein=yaml_variant['protein'],
         aa_pos=aa_pos,
-        codon_change=codon_change
+        codon_change=codon_change,
+        aa_change=aa_change
     )
     record = {
         'CHROM': '1',
@@ -127,5 +131,3 @@ if __name__ == "__main__":
         input_yaml = yaml.safe_load(stream)
 
     write_vcf(input_yaml, args.output)
-# writing out vcf
-# for the vcf header

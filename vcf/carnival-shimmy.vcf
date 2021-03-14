@@ -9,17 +9,17 @@
 ##META=acknowledgements:None
 ##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
 # CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	1059	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp2|85|ACC-ATC
-1	5230	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|837|AAG-AAT
-1	10323	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|90|AAG-AGG
-1	21801	.	A	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|80|GAT-GCT
-1	22206	.	A	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|215|GAT-GGT
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
-1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|501|AAT-TAT
-1	23664	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|701|GCA-GTA
-1	25563	.	G	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|57|CAG-CAT
-1	25904	.	C	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|171|TCA-TTA
-1	26456	.	C	T	.	.	.	ANN|T|Gene:E|non-synonymous|SNP|envelope protein|71|CCT-CTT
-1	28887	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|205|ACT-ATT
-1	22280	.	ACTTTACTTG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.
-1	11287	.	GTCTGGTTTT	G	.	.	.	ANN|G|Gene:ORF1ab|.|deletion|nsp6|.|.
+1	1059	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp2|T85I|85|ACC-ATC
+1	5230	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|K837N|837|AAG-AAT
+1	10323	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|K90R|90|AAG-AGG
+1	21801	.	A	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|D80A|80|GAT-GCT
+1	22206	.	A	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|D215G|215|GAT-GGT
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
+1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|N501Y|501|AAT-TAT
+1	23664	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|A701V|701|GCA-GTA
+1	25563	.	G	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|Q57H|57|CAG-CAT
+1	25904	.	C	T	.	.	.	ANN|T|Gene:ORF3a|non-synonymous|SNP|ORF3a protein|S171L|171|TCA-TTA
+1	26456	.	C	T	.	.	.	ANN|T|Gene:E|non-synonymous|SNP|envelope protein|P71L|71|CCT-CTT
+1	28887	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|T205I|205|ACT-ATT
+1	22280	.	ACTTTACTTG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.|.
+1	11287	.	GTCTGGTTTT	G	.	.	.	ANN|G|Gene:ORF1ab|.|deletion|nsp6|.|.|.

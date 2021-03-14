@@ -9,8 +9,8 @@
 ##META=acknowledgements:None
 ##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
 # CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	7843	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|1708|AAC-AAT
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
-1	27092	.	C	T	.	.	.	ANN|T|Gene:M|synonymous|SNP|membrane glycoprotein|190|GAC-GAT
-1	28791	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|173|GCA-GTA
-1	29465	.	G	A	.	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|398|GCA-ACA
+1	7843	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|.|1708|AAC-AAT
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
+1	27092	.	C	T	.	.	.	ANN|T|Gene:M|synonymous|SNP|membrane glycoprotein|.|190|GAC-GAT
+1	28791	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A173V|173|GCA-GTA
+1	29465	.	G	A	.	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A398T|398|GCA-ACA

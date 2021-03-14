@@ -9,16 +9,16 @@
 ##META=acknowledgements:None
 ##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
 # CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	4940	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|741|CTT-TTT
-1	11230	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|86|ATG-ATT
-1	11266	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|98|TTG-TTT
-1	11521	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|183|ATG-ATT
-1	21867	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|102|AGA-ATA
-1	22033	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|157|TTC-TTA
-1	22661	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|367|GTC-TTC
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
-1	23401	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|613|CAG-CAT
-1	23604	.	C	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|681|CCT-CGT
-1	28144	.	T	C	.	.	.	ANN|C|Gene:ORF8|non-synonymous|SNP|ORF8 protein|84|TTA-TCA
-1	28167	.	G	A	.	.	.	ANN|A|Gene:ORF8|non-synonymous|SNP|ORF8 protein|92|GAA-AAA
-1	28878	.	G	A	.	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|202|AGT-AAT
+1	4940	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|L741F|741|CTT-TTT
+1	11230	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|M86I|86|ATG-ATT
+1	11266	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|L98F|98|TTG-TTT
+1	11521	.	G	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp6|M183I|183|ATG-ATT
+1	21867	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|R102I|102|AGA-ATA
+1	22033	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|F157L|157|TTC-TTA
+1	22661	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|V367F|367|GTC-TTC
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
+1	23401	.	G	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|Q613H|613|CAG-CAT
+1	23604	.	C	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|P681R|681|CCT-CGT
+1	28144	.	T	C	.	.	.	ANN|C|Gene:ORF8|non-synonymous|SNP|ORF8 protein|L84S|84|TTA-TCA
+1	28167	.	G	A	.	.	.	ANN|A|Gene:ORF8|non-synonymous|SNP|ORF8 protein|E92K|92|GAA-AAA
+1	28878	.	G	A	.	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|S202N|202|AGT-AAT

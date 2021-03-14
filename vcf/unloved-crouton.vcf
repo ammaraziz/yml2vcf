@@ -1,16 +1,16 @@
-##fileformat=VCFv4
+##fileformat=VCFv4.0
 ##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
-##META=phe-label:VOC202102/02
-##META=alternate-names:Bristol
-##META=belongs-to-lineage:{'PANGO': 'B.1.1.7'}
-##META=description:This variant is a cluster of B.1.1.7 (VOC202012/01) that contains E484K and is associated with the Bristol area
-##META=info_source:None
-##META=calling-definition:confirmed_mutations-required:5,confirmed_indels-required:0,confirmed_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
-##META=acknowledgements:None
-##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
-# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	7843	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|.|1708|AAC-AAT
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
-1	27092	.	C	T	.	.	.	ANN|T|Gene:M|synonymous|SNP|membrane glycoprotein|.|190|GAC-GAT
-1	28791	.	C	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A173V|173|GCA-GTA
-1	29465	.	G	A	.	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A398T|398|GCA-ACA
+##META=<ID=.,Description="phe-label:VOC202102/02>"
+##META=<ID=.,Description="alternate-names:Bristol>"
+##META=<ID=.,Description="belongs-to-lineage:{'PANGO': 'B.1.1.7'}>"
+##META=<ID=.,Description="description:This variant is a cluster of B.1.1.7 (VOC202012/01) that contains E484K and is associated with the Bristol area>"
+##META=<ID=.,Description="info_source:None>"
+##META=<ID=.,Description="calling-definition:confirmed_mutations-required:5,confirmed_indels-required:0,confirmed_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0>"
+##META=<ID=.,Description="acknowledgements:None>"
+##META=<ID=.,Description="curators:Natalie Groves, Ulf Schaefer, Nick Loman>"
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	7843	.	C	T	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp3|.|1708|AAC-AAT
+1	23012	.	G	A	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface_glycoprotein|E484K|484|GAA-AAA
+1	27092	.	C	T	.	.	ANN|T|Gene:M|synonymous|SNP|membrane_glycoprotein|.|190|GAC-GAT
+1	28791	.	C	T	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid_phosphoprotein|A173V|173|GCA-GTA
+1	29465	.	G	A	.	.	ANN|A|Gene:N|non-synonymous|SNP|nucleocapsid_phosphoprotein|A398T|398|GCA-ACA

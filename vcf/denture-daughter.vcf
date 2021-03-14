@@ -1,26 +1,26 @@
-##fileformat=VCFv4
+##fileformat=VCFv4.0
 ##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
-##META=phe-label:VOC202012/01
-##META=alternate-names:UK variant
-##META=belongs-to-lineage:{'PANGO': 'B.1.1.7'}
-##META=description:This variant became widespread in the UK in the Winter of 2021 and is characterised by increased transmissibility.
-##META=info_source:https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201
-##META=calling-definition:confirmed_mutations-required:13,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0
-##META=acknowledgements:None
-##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
-# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	21764	.	ATACATG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.|.
-1	21990	.	TTTA	T	.	.	.	ANN|T|Gene:S|.|deletion|surface glycoprotein|.|.|.
-1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|N501Y|501|AAT-TAT
-1	23271	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|A570D|570|GCT-GAT
-1	23604	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|P681H|681|CCT-CAT
-1	23709	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|T716I|716|ACA-ATA
-1	24506	.	T	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|S982A|982|TCA-GCA
-1	24914	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|D1118H|1118|GAC-CAC
-1	3267	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|T183I|183|ACT-ATT
-1	5388	.	C	A	.	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp3|A890D|890|GCT-GAT
-1	6954	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|I1412T|1412|ATA-ACA
-1	27972	.	C	T	.	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8 protein|Q27*|27|CAA-TAA
-1	28048	.	G	T	.	.	.	ANN|T|Gene:ORF8|no-effect|SNP|ORF8 protein|R52I|52|AGA-ATA
-1	28111	.	A	G	.	.	.	ANN|G|Gene:ORF8|no-effect|SNP|ORF8 protein|Y73C|73|TAC-TGC
-1	28280	.	GAT	CTA	.	.	.	ANN|CTA|Gene:N|non-synonymous|MNP|nucleocapsid phosphoprotein|D3L|3|GAT-CTA
+##META=<ID=.,Description="phe-label:VOC202012/01>"
+##META=<ID=.,Description="alternate-names:UK variant>"
+##META=<ID=.,Description="belongs-to-lineage:{'PANGO': 'B.1.1.7'}>"
+##META=<ID=.,Description="description:This variant became widespread in the UK in the Winter of 2021 and is characterised by increased transmissibility.>"
+##META=<ID=.,Description="info_source:https://www.gov.uk/government/publications/investigation-of-novel-sars-cov-2-variant-variant-of-concern-20201201>"
+##META=<ID=.,Description="calling-definition:confirmed_mutations-required:13,confirmed_indels-required:0,confirmed_allowed-wildtype:0,probable_mutations-required:5,probable_indels-required:0,probable_allowed-wildtype:0,low-qc_mutations-required:0,low-qc_indels-required:0,low-qc_allowed-wildtype:0>"
+##META=<ID=.,Description="acknowledgements:None>"
+##META=<ID=.,Description="curators:Natalie Groves, Ulf Schaefer, Nick Loman>"
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	21764	.	ATACATG	A	.	.	ANN|A|Gene:S|.|deletion|surface_glycoprotein|.|.|.
+1	21990	.	TTTA	T	.	.	ANN|T|Gene:S|.|deletion|surface_glycoprotein|.|.|.
+1	23063	.	A	T	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface_glycoprotein|N501Y|501|AAT-TAT
+1	23271	.	C	A	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface_glycoprotein|A570D|570|GCT-GAT
+1	23604	.	C	A	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface_glycoprotein|P681H|681|CCT-CAT
+1	23709	.	C	T	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface_glycoprotein|T716I|716|ACA-ATA
+1	24506	.	T	G	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface_glycoprotein|S982A|982|TCA-GCA
+1	24914	.	G	C	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface_glycoprotein|D1118H|1118|GAC-CAC
+1	3267	.	C	T	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|T183I|183|ACT-ATT
+1	5388	.	C	A	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp3|A890D|890|GCT-GAT
+1	6954	.	T	C	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|I1412T|1412|ATA-ACA
+1	27972	.	C	T	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8_protein|Q27*|27|CAA-TAA
+1	28048	.	G	T	.	.	ANN|T|Gene:ORF8|no-effect|SNP|ORF8_protein|R52I|52|AGA-ATA
+1	28111	.	A	G	.	.	ANN|G|Gene:ORF8|no-effect|SNP|ORF8_protein|Y73C|73|TAC-TGC
+1	28280	.	GAT	CTA	.	.	ANN|CTA|Gene:N|non-synonymous|MNP|nucleocapsid_phosphoprotein|D3L|3|GAT-CTA

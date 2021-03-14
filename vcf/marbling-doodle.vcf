@@ -1,18 +1,18 @@
-##fileformat=VCFv4
+##fileformat=VCFv4.0
 ##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol ">
-##META=phe-label:VUI202101/01
-##META=alternate-names:Brazil 1
-##META=belongs-to-lineage:{'PANGO': 'P.2'}
-##META=description:This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK
-##META=info_source:None
-##META=calling-definition:confirmed_mutations-required:6,confirmed_indels-required:0,confirmed_allowed-wildtype:1
-##META=acknowledgements:.
-##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
-# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	10667	.	T	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|L205V|205|TTA-GTA
-1	11824	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp6|.|284|ATC-ATT
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
-1	12964	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp9|.|93|GGA-GGG
-1	28253	.	C	T	.	.	.	ANN|T|Gene:ORF8|synonymous|SNP|ORF8 protein|.|120|TTC-TTT
-1	28628	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A119S|119|GCT-TCT
-1	28975	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|M234I|234|ATG-ATT
+##META=<ID=.,Description="phe-label:VUI202101/01>"
+##META=<ID=.,Description="alternate-names:Brazil 1>"
+##META=<ID=.,Description="belongs-to-lineage:{'PANGO': 'P.2'}>"
+##META=<ID=.,Description="description:This variant became widespread in Rio de Janeiro, Brazil and imported cases have been reported in a number of other countries including the UK>"
+##META=<ID=.,Description="info_source:None>"
+##META=<ID=.,Description="calling-definition:confirmed_mutations-required:6,confirmed_indels-required:0,confirmed_allowed-wildtype:1>"
+##META=<ID=.,Description="acknowledgements:.>"
+##META=<ID=.,Description="curators:Natalie Groves, Ulf Schaefer, Nick Loman>"
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+1	10667	.	T	G	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|L205V|205|TTA-GTA
+1	11824	.	C	T	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp6|.|284|ATC-ATT
+1	23012	.	G	A	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface_glycoprotein|E484K|484|GAA-AAA
+1	12964	.	A	G	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp9|.|93|GGA-GGG
+1	28253	.	C	T	.	.	ANN|T|Gene:ORF8|synonymous|SNP|ORF8_protein|.|120|TTC-TTT
+1	28628	.	G	T	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid_phosphoprotein|A119S|119|GCT-TCT
+1	28975	.	G	T	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid_phosphoprotein|M234I|234|ATG-ATT

@@ -46,17 +46,17 @@ def create_header(yaml):
     except KeyError:
         acknowledgements = "."
     header = [
-        '##fileformat=VCFv4',
+        '##fileformat=VCFv4.0',
         '##INFO=<ID=EFF,Number=.,Type=String,Description="Variant effects are encoded in the ANN field: ANN=A|...., T|.... Annotation fields follow order of yaml file separated by pipe symbol \">',
-        '##META=phe-label:' + yaml['phe-label'],
-        '##META=alternate-names:' + yaml['alternate-names'][0],
-        '##META=belongs-to-lineage:' + str(yaml['belongs-to-lineage'][0]),
-        '##META=description:' + yaml['description'],
-        '##META=info_source:' + str(yaml['information-sources'][0]),
-        '##META=calling-definition:' + call_definitions,
-        '##META=acknowledgements:' + acknowledgements,
-        '##META=curators:' + ', '.join(yaml['curators']),
-        '# CHROM POS ID REF ALT QUAL FILTER FORMAT INFO'
+        '##META=<ID=.,Description="phe-label:' + yaml['phe-label'] + '>"',
+        '##META=<ID=.,Description="alternate-names:' + yaml['alternate-names'][0] + '>"',
+        '##META=<ID=.,Description="belongs-to-lineage:' + str(yaml['belongs-to-lineage'][0]) + '>"',
+        '##META=<ID=.,Description="description:' + yaml['description'] + '>"',
+        '##META=<ID=.,Description="info_source:' + str(yaml['information-sources'][0]) + '>"',
+        '##META=<ID=.,Description="calling-definition:' + call_definitions + '>"',
+        '##META=<ID=.,Description="acknowledgements:' + acknowledgements + '>"',
+        '##META=<ID=.,Description="curators:' + ', '.join(yaml['curators']) + '>"',
+        '#CHROM\tPOS\tID\tREF\tALT\tQUAL\tFILTER\tINFO'
     ]
 
     return(header)
@@ -83,12 +83,14 @@ def create_record(yaml_variant):
     except KeyError:
         aa_change = '.'
 
+    protein = yaml_variant['protein'].replace(" ", "_")
+
     annotation = '{variant_base}|Gene:{gene}|{effect}|{type}|{protein}|{aa_change}|{aa_pos}|{codon_change}'.format(
         variant_base=yaml_variant['variant-base'],
         gene=yaml_variant['gene'],
         effect=effect,
         type=yaml_variant['type'],
-        protein=yaml_variant['protein'],
+        protein=protein,
         aa_pos=aa_pos,
         codon_change=codon_change,
         aa_change=aa_change
@@ -101,7 +103,6 @@ def create_record(yaml_variant):
         'ALT': yaml_variant['variant-base'],
         'QUAL': '.',
         'FILTER': '.',
-        'FORMAT': '.',
         'INFO': 'ANN|{ann}'.format(ann=annotation),
     }
     return(record)

@@ -1,14 +1,14 @@
-# yml2vcf
+## yml2vcf
 Simple script to convert yml phe-genomics/variant_definitions to vcf
 
-# usage:
-./yml2vcf.py -i tmp.yml -o tmp.vcf
+## usage:
+    yml2vcf.py -i tmp.yml -o tmp.vcf
 
-# dependancies:
-~ pyyaml
-~ pyvcf
-~ argparse
+## dependancies:
+   - pyyaml
+   - pyvcf
+   - argparse
+ 
+## License:
 
-# License:
-
-~ MIT just don't sue me
+- MIT

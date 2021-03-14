@@ -9,18 +9,18 @@
 ##META=acknowledgements:None
 ##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
 # CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	21764	.	ATACATG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.
-1	21990	.	TTTA	T	.	.	.	ANN|T|Gene:S|.|deletion|surface glycoprotein|.|.
-1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|501|AAT-TAT
-1	23271	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|570|GCT-GAT
-1	23604	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|681|CCT-CAT
-1	23709	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|716|ACA-ATA
-1	24506	.	T	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|982|TCA-GCA
-1	24914	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|1118|GAC-CAC
-1	3267	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|183|ACT-ATT
-1	5388	.	C	A	.	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp3|890|GCT-GAT
-1	6954	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|1412|ATA-ACA
-1	27972	.	C	T	.	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8 protein|27|CAA-TAA
-1	28048	.	G	T	.	.	.	ANN|T|Gene:ORF8|no-effect|SNP|ORF8 protein|52|AGA-ATA
-1	28111	.	A	G	.	.	.	ANN|G|Gene:ORF8|no-effect|SNP|ORF8 protein|73|TAC-TGC
-1	28280	.	GAT	CTA	.	.	.	ANN|CTA|Gene:N|non-synonymous|MNP|nucleocapsid phosphoprotein|3|GAT-CTA
+1	21764	.	ATACATG	A	.	.	.	ANN|A|Gene:S|.|deletion|surface glycoprotein|.|.|.
+1	21990	.	TTTA	T	.	.	.	ANN|T|Gene:S|.|deletion|surface glycoprotein|.|.|.
+1	23063	.	A	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|N501Y|501|AAT-TAT
+1	23271	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|A570D|570|GCT-GAT
+1	23604	.	C	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|P681H|681|CCT-CAT
+1	23709	.	C	T	.	.	.	ANN|T|Gene:S|non-synonymous|SNP|surface glycoprotein|T716I|716|ACA-ATA
+1	24506	.	T	G	.	.	.	ANN|G|Gene:S|non-synonymous|SNP|surface glycoprotein|S982A|982|TCA-GCA
+1	24914	.	G	C	.	.	.	ANN|C|Gene:S|non-synonymous|SNP|surface glycoprotein|D1118H|1118|GAC-CAC
+1	3267	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|non-synonymous|SNP|nsp3|T183I|183|ACT-ATT
+1	5388	.	C	A	.	.	.	ANN|A|Gene:ORF1ab|non-synonymous|SNP|nsp3|A890D|890|GCT-GAT
+1	6954	.	T	C	.	.	.	ANN|C|Gene:ORF1ab|non-synonymous|SNP|nsp3|I1412T|1412|ATA-ACA
+1	27972	.	C	T	.	.	.	ANN|T|Gene:ORF8|non-synonymous|SNP|ORF8 protein|Q27*|27|CAA-TAA
+1	28048	.	G	T	.	.	.	ANN|T|Gene:ORF8|no-effect|SNP|ORF8 protein|R52I|52|AGA-ATA
+1	28111	.	A	G	.	.	.	ANN|G|Gene:ORF8|no-effect|SNP|ORF8 protein|Y73C|73|TAC-TGC
+1	28280	.	GAT	CTA	.	.	.	ANN|CTA|Gene:N|non-synonymous|MNP|nucleocapsid phosphoprotein|D3L|3|GAT-CTA

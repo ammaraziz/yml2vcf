@@ -9,10 +9,10 @@
 ##META=acknowledgements:.
 ##META=curators:Natalie Groves, Ulf Schaefer, Nick Loman
 # CHROM POS ID REF ALT QUAL FILTER FORMAT INFO
-1	10667	.	T	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|205|TTA-GTA
-1	11824	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp6|284|ATC-ATT
-1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|484|GAA-AAA
-1	12964	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp9|93|GGA-GGG
-1	28253	.	C	T	.	.	.	ANN|T|Gene:ORF8|synonymous|SNP|ORF8 protein|120|TTC-TTT
-1	28628	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|119|GCT-TCT
-1	28975	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|234|ATG-ATT
+1	10667	.	T	G	.	.	.	ANN|G|Gene:ORF1ab|non-synonymous|SNP|nsp5|L205V|205|TTA-GTA
+1	11824	.	C	T	.	.	.	ANN|T|Gene:ORF1ab|synonymous|SNP|nsp6|.|284|ATC-ATT
+1	23012	.	G	A	.	.	.	ANN|A|Gene:S|non-synonymous|SNP|surface glycoprotein|E484K|484|GAA-AAA
+1	12964	.	A	G	.	.	.	ANN|G|Gene:ORF1ab|synonymous|SNP|nsp9|.|93|GGA-GGG
+1	28253	.	C	T	.	.	.	ANN|T|Gene:ORF8|synonymous|SNP|ORF8 protein|.|120|TTC-TTT
+1	28628	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|A119S|119|GCT-TCT
+1	28975	.	G	T	.	.	.	ANN|T|Gene:N|non-synonymous|SNP|nucleocapsid phosphoprotein|M234I|234|ATG-ATT
